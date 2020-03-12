@@ -31,9 +31,9 @@ class String
 
   end
 
-  def count_sentences
-    # self.squeeze('.?!{}').count('.?!{}')
-    self.split(/[\s,?!_'-]/)
+  # def count_sentences
+  #   # self.squeeze('.?!{}').count('.?!{}')
+  #   self.split(/[\s,?!_'-]/)
 
-  end
+  # end
 end
