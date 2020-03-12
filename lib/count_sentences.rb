@@ -33,7 +33,9 @@ class String
 
   def count_sentences
     
-    self.squeeze('.?!').count('.?!') #
+    #multiple occurence of same character is squeezed to one
+    #the counts the sentence
+    self.squeeze('.?!').count('.?!') 
   
 
   end
