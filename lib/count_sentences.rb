@@ -32,7 +32,7 @@ class String
   end
 
   def count_sentences
-    self.squeeze.split(" ").count
+  self.squeeze('.?!{}').count('.?!{}')
   # self.split(/[\s,?!_'-]/).count
 
   end
